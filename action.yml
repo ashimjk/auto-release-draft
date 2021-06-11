@@ -1,11 +1,10 @@
 name: 'Auto Release Draft'
 description: 'Drafts a GitHub release with the changes introduced by a newly created version tag.'
 author: 'Ashim Jung Khadka'
-#inputs:
-#  milliseconds: # change this
-#    required: true
-#    description: 'input description here'
-#    default: 'default value if applicable'
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN used to authenticate to the current workflow'
+    required: true
 outputs:
   release-url:
     description: 'The URL of the GitHub release that was drafted'
