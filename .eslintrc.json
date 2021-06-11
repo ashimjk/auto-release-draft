@@ -5,7 +5,8 @@
     "parserOptions": {
       "ecmaVersion": 9,
       "sourceType": "module",
-      "project": "./tsconfig.json"
+      "project": "./tsconfig.json",
+      "createDefaultProgram": true
     },
     "rules": {
       "eslint-comments/no-use": "off",
