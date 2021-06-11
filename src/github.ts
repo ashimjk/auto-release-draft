@@ -8,8 +8,6 @@ export async function createReleaseDraft(
   versionTag: string,
   changeLog: string
 ): Promise<string> {
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
   const octokit = new github.GitHub(repoToken)
 
   const response = await octokit.repos.createRelease({
