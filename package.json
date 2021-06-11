@@ -25,7 +25,10 @@
   "author": "Ashim Jung Khadka",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^5.0.0",
+    "@types/semver": "^7.3.6",
+    "semver": "^7.3.5"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
